@@ -53,11 +53,18 @@ h1{
 }
 h2{
     font-family: "salome";
+    margin: 20px;
     color: rgba(21, 31, 177, 0.932);
 }
 p{
-    font-family: "Gill Sans", sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 img{
-    max-width: 50%;
+    max-width: 70%;
+    padding: 10px;
+    background-color:rgba(182, 219, 236, 0.932) ;
+}
+hr{
+    background-color: blue;
+    padding:1px;
 }
