@@ -1,0 +1,20 @@
+/* 
+selecteur(s) {
+    propriété : valeur;
+    propriété : valeur;
+    propriété : valeur;
+}
+*/
+body{
+    background-color:rgb(255, 255, 255)
+}
+h1{
+    color:#c71585;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
