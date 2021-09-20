@@ -82,16 +82,16 @@ img {
 }
 
 .numero-quatre {
-    max-width: 100%;
+ 
+    height: 360px;
+
 }
 
 .numero-cinq {
     grid-column-start: 2;
-    grid-column-end: span 3;
+    grid-column-end: span 1;
     grid-row-start: 2;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(252, 198, 176);
-    text-align: center;
 }
 
 .numero-six {
@@ -109,7 +109,7 @@ img {
 .numero-huit {
     background-color: mistyrose;
     grid-column-start: 2;
-    grid-column-end: span 2;
+    grid-column-end: 2;
 }
 
 h1 {
