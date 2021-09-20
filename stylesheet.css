@@ -82,9 +82,8 @@ img {
 }
 
 .numero-quatre {
- 
+    max-width: 180%;
     height: 360px;
-
 }
 
 .numero-cinq {
