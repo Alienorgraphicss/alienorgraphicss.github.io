@@ -69,3 +69,7 @@ img{
     grid-column-start: 2;
     grid-row-start: 2;
 }
+p{
+    font-family: 'Avara-Bold';
+    color: white;
+}
