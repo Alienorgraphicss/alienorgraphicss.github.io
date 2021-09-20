@@ -43,7 +43,7 @@ selecteur(s) {
     font-style: normal;
 }
 
-@media (min-width:260px){
+@media (min-width:260px) {
     .grid {
         display: grid;
         grid-template-columns: 360px 360px 360px 310px;
@@ -51,85 +51,87 @@ selecteur(s) {
         column-gap: 10px;
         row-gap: 20px;
         grid-auto-flow: row;
-}
-@media (max-width: 100px){
-    .grid{
-        display: grid;
-        grid-template-columns: 360px;
-        grid-template-rows: 360px;
-        column-gap: 10px;
-        row-gap: 20px;
     }
-}
-body {
-    margin: 7px;
-    padding: 5px;
-    background-color:royalblue;
-}
 
-img {
-    max-width: 100%;
-    height:auto;
-}
+    @media (max-width: 100px) {
+        .grid {
+            display: grid;
+            grid-template-columns: 360px;
+            grid-template-rows: 360px;
+            column-gap: 10px;
+            row-gap: 20px;
+        }
+    }
 
-.numero-un {
-    grid-column-start: 1;
-}
+    body {
+        margin: 7px;
+        padding: 5px;
+        background-color: royalblue;
+    }
 
-.numero-deux {
-    grid-column-start: 2;
-    text-align: center;
-}
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
-.numero-trois {
-    text-align: center;
-}
+    .numero-un {
+        grid-column-start: 1;
+    }
 
-.numero-quatre {
-    max-width: 180%;
-    height: 360px;
-}
+    .numero-deux {
+        grid-column-start: 2;
+        text-align: center;
+    }
 
-.numero-cinq {
-    grid-column-start: 2;
-    grid-column-end: span 1;
-    grid-row-start: 2;
-    background-color: rgb(252, 198, 176);
-}
+    .numero-trois {
+        text-align: center;
+    }
 
-.numero-sept {
-    background-color: #fff;
-    grid-column-start: span 3;
-}
+    .numero-quatre {
+        max-width: 180%;
+        height: 360px;
+    }
 
-.numero-huit {
-    background-color: mistyrose;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
+    .numero-cinq {
+        grid-column-start: 2;
+        grid-column-end: span 1;
+        grid-row-start: 2;
+        background-color: rgb(252, 198, 176);
+    }
 
-h1 {
-    text-align: justify;
-    font-family: 'Avara-Bold';
-    font-weight: bold;
-    font-size: 30px;
-    color:white;
-}
+    .numero-sept {
+        background-color: #fff;
+        grid-column-start: span 3;
+    }
 
-h2{
-    font-family:'Avara-Bold';
-    font-size: 18px;
-    color:white;
-}
+    .numero-huit {
+        background-color: mistyrose;
+        grid-column-start: 2;
+        grid-column-end: 2;
+    }
 
-p {
-    font-family: 'Avara-Bold';
-    font-size: 16px;
-    text-align: left;
-    color:white;
-}
+    h1 {
+        text-align: justify;
+        font-family: 'Avara-Bold';
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+    }
 
-a{
-    text-decoration: none;
-    color: curre;
-}
+    h2 {
+        font-family: 'Avara-Bold';
+        font-size: 18px;
+        color: white;
+    }
+
+    p {
+        font-family: 'Avara-Bold';
+        font-size: 16px;
+        text-align: left;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: curre;
+    }
