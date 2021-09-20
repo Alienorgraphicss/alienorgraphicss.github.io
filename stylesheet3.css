@@ -1,12 +1,3 @@
-/* 
-selecteur(s) {
-    propriété : valeur;
-    propriété : valeur;
-    propriété : valeur;
-    
-}
-*/
-
 @font-face {
     font-family: 'Avara-Bold';
     src: url('fonts/Bold/Avara-Bold.eot');
@@ -43,84 +34,16 @@ selecteur(s) {
     font-style: normal;
 }
 
-@media (min-width:300px){
-    .grid {
-        display: grid;
-        grid-template-columns: 360px 360px 360px 310px;
-        grid-template-rows: 360px 360px 360px;
-        column-gap: 10px;
-        row-gap: 20px;
-        grid-auto-flow: row;
+h1{
+    font-family:'Avara-Bold';
+    color: white;
 }
 
-
-
-body {
-    margin: 7px;
-    padding: 5px;
+body{
     background-color:royalblue;
 }
-
-img {
-    max-width: 100%;
-    height:auto;
-}
-
-.numero-un {
-    grid-column-start: 1;
-    text-align: center;
-    display: block;
-}
-
-.numero-deux {
-    grid-column-start: 2;
-    text-align: center;
-}
-
-.numero-trois {
-    text-align: center;
-}
-
-.numero-quatre {
-    max-width: 180%;
-    height: 360px;
-}
-
-.numero-cinq {
-    grid-column-start: 2;
-    grid-column-end: span 1;
-    grid-row-start: 2;
-    background-color: rgb(252, 198, 176);
-}
-
-.numero-sept {
-    background-color: #fff;
-    grid-column-start: span 3;
-}
-
-.numero-huit {
-    background-color: mistyrose;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
-
-h1 {
-    text-align: justify;
-    font-family: 'Avara-Bold';
-    font-weight: bold;
-    font-size: 35px;
-    color:white;
-}
-
-h2{
-    font-family:'Avara-Bold';
-    font-size: 18px;
-    color:white;
-}
-
-p {
+p{
     font-family: 'Avara-Bold';
     font-size: 16px;
-    text-align: left;
-    color:white;
+    color: white;
 }
