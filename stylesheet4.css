@@ -37,6 +37,10 @@
 body{
     background-color: black;
 }
+h4{
+    font-family: 'Avara-Bold';
+    color: white;
+}
 h1{
     font-family: 'Avara-Bold';
     font-size: 30px;
@@ -70,6 +74,10 @@ pommerat-quatre{
     grid-row: 1;
 }
 pommerat-six{
-    grid-column-start: 2;
-    grid-column-end: span 2;
+    grid-column-start: 3;
+    grid-auto-rows: 3;
+}
+
+a{
+    text-decoration: none;
 }

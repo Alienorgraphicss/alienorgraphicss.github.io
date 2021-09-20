@@ -37,6 +37,8 @@ h1{
     font-family:'Avara-Bold';
     color: white;
 }
+
+
 body{
     background-color:lightpink;
 }
@@ -70,6 +72,13 @@ img{
     grid-row-start: 2;
 }
 p{
+    font-family: 'Avara-Bold';
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a{
     font-family: 'Avara-Bold';
     color: white;
 }
