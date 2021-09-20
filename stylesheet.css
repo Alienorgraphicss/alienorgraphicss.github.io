@@ -66,8 +66,6 @@ img {
 
 .numero-un {
     grid-column-start: 1;
-    text-align: center;
-    display: block;
 }
 
 .numero-deux {
