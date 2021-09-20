@@ -43,6 +43,10 @@ h1 {
     font-size: 30px;
     color: white
 }
+a{
+    font-family: 'Avara-Bold';
+    color: currentColor;
+}
 
 p {
     font-family: 'Avara-Bold';
