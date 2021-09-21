@@ -158,3 +158,10 @@ max-width: 150%;
     row-gap: 10px;
     padding: 20px;
 }
+
+.serigraphiegrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    max-width: 140%;
+}
