@@ -56,14 +56,16 @@ selecteur(s) {
 }
 
 @media (min-width: 500px) {
-    .grid {
-        display: grid;
-        grid-template-columns: 250px 250px;
-        grid-template-rows: 250px;
-        column-gap: 10px;
-        row-gap: 20px;
-        align-content: center;
-    }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 250px 250px;
+            grid-template-rows: 250px;
+            column-gap: 10px;
+            row-gap: 20px;
+            align-content: center;
+        } 
+
 }
 
 @media (min-width: 1000px) {
@@ -122,12 +124,16 @@ a :hover {
 .specimen {    background-color:red}
 .artiste {    background-color:black}
 .posters {    background-color:teal}
+.typo{ background-color: burlywood;}
 
-.posters{
-    row-gap: 5px;
+@media (min-width:375px) {
+.typo div{
+display:grid;
+grid-template-columns: 360px 360px 360px;
+grid-template-rows: 360px 360px;
+column-gap: 10px;
+row-gap: 10px;
+grid-auto-flow: row;
+    }
 }
-
-
-
-
 
