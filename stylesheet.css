@@ -43,78 +43,48 @@ selecteur(s) {
     font-style: normal;
 }
 
-@media (min-width:260px) {
+@media (min-width:375px) {
     .grid {
         display: grid;
-        grid-template-columns: 360px 360px 360px 310px;
-        grid-template-rows: 360px 360px 360px;
+        grid-template-columns: 350px;
+        grid-template-rows: repeat(6 100px); 
         column-gap: 10px;
         row-gap: 20px;
         grid-auto-flow: row;
     }
 
-    @media (max-width: 100px) {
+    @media (min-width: 500px) {
         .grid {
             display: grid;
-            grid-template-columns: 360px;
-            grid-template-rows: 360px;
+            grid-template-columns: 250px 250px;
+            grid-template-rows: 250px;
             column-gap: 10px;
             row-gap: 20px;
         }
     }
 
-    body {
-        margin: 7px;
-        padding: 5px;
-        background-color: royalblue;
+    @media (min-width: 1000px) {
+        .grid {
+            display: grid;
+            grid-template-columns: 360px 360px 360px 310px;
+            grid-template-rows: 360px;
+            column-gap: 10px;
+            row-gap: 20px;
+        }
+        
     }
 
     img {
         max-width: 100%;
         height: auto;
-    }
-
-    .numero-un {
-        grid-column-start: 1;
-    }
-
-    .numero-deux {
-        grid-column-start: 2;
-        text-align: center;
-    }
-
-    .numero-trois {
-        text-align: center;
-    }
-
-    .numero-quatre {
-        max-width: 180%;
-        height: 360px;
-    }
-
-    .numero-cinq {
-        grid-column-start: 2;
-        grid-column-end: span 1;
-        grid-row-start: 2;
-        background-color: rgb(252, 198, 176);
-    }
-
-    .numero-sept {
-        background-color: #fff;
-        grid-column-start: span 3;
-    }
-
-    .numero-huit {
-        background-color: mistyrose;
-        grid-column-start: 2;
-        grid-column-end: 2;
+        align-content: center;
     }
 
     h1 {
         text-align: justify;
         font-family: 'Avara-Bold';
         font-weight: bold;
-        font-size: 30px;
+        font-size: 25px;
         color: white;
     }
 
@@ -132,11 +102,16 @@ selecteur(s) {
     }
 
     a {
+        font-family: 'Avara-Bold';
         text-decoration: none;
-        color: currentColor;
+        color:white
     }
 
-    a :hover{
+    a :hover {
         opacity: 0.5;
-        transition: 0.5s;
+        transition: 0.8s;
     }
+
+body{
+    background-color: royalblue;
+}
