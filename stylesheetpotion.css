@@ -11,3 +11,8 @@ p{
     font-size: 16px;
     color: white;
 }
+a{
+    font-family: 'Avara-Bold';
+    text-decoration: none;
+    color: white;
+}
