@@ -126,14 +126,23 @@ a :hover {
 .posters {    background-color:teal}
 .typo{ background-color: burlywood;}
 
-@media (min-width:375px) {
 .typo div{
 display:grid;
-grid-template-columns: 360px 360px 360px;
-grid-template-rows: 360px 360px;
+grid-template-columns: 500px 500px;
+grid-template-rows: 500px 500px;
 column-gap: 10px;
-row-gap: 10px;
+row-gap: 15px;
 grid-auto-flow: row;
+padding:30px;
+max-width: 150%;
     }
-}
+
+.postergrid{
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 30px;
+} 
+
 
