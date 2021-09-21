@@ -125,7 +125,7 @@ a :hover {
 .about {    background-color:royalblue;}
 .chaussures {    background-color:lightpink;}
 .potion {    background-color:lightskyblue}
-.specimen {    background-color:red}
+.specimen {    background-color:darkred}
 .artiste {    background-color:black}
 .posters {    background-color:teal}
 .typo{ background-color: burlywood;}
@@ -164,4 +164,11 @@ max-width: 150%;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
     max-width: 140%;
+}
+
+.gridspecimen{
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    column-gap: 10px;
+
 }
