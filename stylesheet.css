@@ -145,4 +145,7 @@ max-width: 150%;
     padding: 30px;
 } 
 
+numero-six{
+    grid-column-start: 0;
+}
 
