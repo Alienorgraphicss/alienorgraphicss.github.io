@@ -47,71 +47,87 @@ selecteur(s) {
     .grid {
         display: grid;
         grid-template-columns: 350px;
-        grid-template-rows: repeat(6 100px); 
+        grid-template-rows: repeat(6 100px);
         column-gap: 10px;
         row-gap: 20px;
         grid-auto-flow: row;
-    }
-
-    @media (min-width: 500px) {
-        .grid {
-            display: grid;
-            grid-template-columns: 250px 250px;
-            grid-template-rows: 250px;
-            column-gap: 10px;
-            row-gap: 20px;
-        }
-    }
-
-    @media (min-width: 1000px) {
-        .grid {
-            display: grid;
-            grid-template-columns: 360px 360px 360px 310px;
-            grid-template-rows: 360px;
-            column-gap: 10px;
-            row-gap: 20px;
-        }
-        
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
         align-content: center;
     }
-
-    h1 {
-        text-align: justify;
-        font-family: 'Avara-Bold';
-        font-weight: bold;
-        font-size: 25px;
-        color: white;
-    }
-
-    h2 {
-        font-family: 'Avara-Bold';
-        font-size: 18px;
-        color: white;
-    }
-
-    p {
-        font-family: 'Avara-Bold';
-        font-size: 16px;
-        text-align: left;
-        color: white;
-    }
-
-    a {
-        font-family: 'Avara-Bold';
-        text-decoration: none;
-        color:white
-    }
-
-    a :hover {
-        opacity: 0.5;
-        transition: 0.8s;
-    }
-
-body{
-    background-color: royalblue;
 }
+
+@media (min-width: 500px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 250px;
+        column-gap: 10px;
+        row-gap: 20px;
+        align-content: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 360px 360px 360px 310px;
+        grid-template-rows: 360px;
+        column-gap: 10px;
+        row-gap: 20px;
+        align-content: center;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+h1 {
+    text-align: justify;
+    font-family: 'Avara-Bold';
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Avara-Bold';
+    font-size: 18px;
+    color: white;
+}
+
+p {
+    font-family: 'Avara-Bold';
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+
+a {
+    font-family: 'Avara-Bold';
+    text-decoration: none;
+    color: white
+}
+
+a :hover {
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.index {    background-color: royalblue;}
+.about {    background-color:royalblue;}
+.chaussures {    background-color:lightpink;}
+.potion {    background-color:lightskyblue}
+.specimen {    background-color:red}
+.artiste {    background-color:black}
+.posters {    background-color:teal}
+
+.posters{
+    row-gap: 5px;
+}
+
+
+
+
+
