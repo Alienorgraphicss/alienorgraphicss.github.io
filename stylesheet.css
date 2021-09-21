@@ -133,5 +133,10 @@ selecteur(s) {
 
     a {
         text-decoration: none;
-        color: curre;
+        color: currentColor;
+    }
+
+    a :hover{
+        opacity: 0.5;
+        transition: 0.5s;
     }
