@@ -142,7 +142,7 @@ a :hover {
 }
 
 .artiste {
-    background-color: black
+    background-color: rgb(255, 255, 255)
 }
 
 .posters {
@@ -155,6 +155,16 @@ a :hover {
 
 .serigraphie {
     background-color: purple;
+}
+
+.pommerat-text{
+    color: black;
+}
+.pommerat-titre{
+    color: black;
+}
+.pommerat-a{
+    color: black;
 }
 
 .typo div {
@@ -179,10 +189,15 @@ a :hover {
 .pommeratgrid {
     display: grid;
     grid-template-columns: 360px 360px 360px;
-    grid-template-rows: 320px 320px;
+    grid-template-rows: 360px 360px 360px;
     column-gap: 10px;
-    row-gap: 10px;
+    row-gap: 20px;
     padding: 20px;
+    grid-auto-flow: row;
+}
+
+.pommerat-trois{
+    grid-row-start: 2;
 }
 
 .serigraphiegrid {
