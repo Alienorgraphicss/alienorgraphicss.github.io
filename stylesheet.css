@@ -57,14 +57,14 @@ selecteur(s) {
 
 @media (min-width: 500px) {
 
-        .grid {
-            display: grid;
-            grid-template-columns: 250px 250px;
-            grid-template-rows: 250px;
-            column-gap: 10px;
-            row-gap: 20px;
-            align-content: center;
-        } 
+    .grid {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 250px;
+        column-gap: 10px;
+        row-gap: 20px;
+        align-content: center;
+    }
 
 }
 
@@ -99,7 +99,7 @@ h2 {
     color: white;
 }
 
-body{
+body {
     padding: 15px;
 }
 
@@ -121,36 +121,62 @@ a :hover {
     transition: 0.8s;
 }
 
-.index {    background-color: royalblue;}
-.about {    background-color:royalblue;}
-.chaussures {    background-color:lightpink;}
-.potion {    background-color:mediumblue}
-.specimen {    background-color:darkred}
-.artiste {    background-color:black}
-.posters {    background-color:teal}
-.typo{ background-color: burlywood;}
-.serigraphie{ background-color:purple;}
+.index {
+    background-color: royalblue;
+}
 
-.typo div{
-display:grid;
-grid-template-columns: 500px 500px;
-grid-template-rows: 500px 500px;
-column-gap: 10px;
-row-gap: 15px;
-grid-auto-flow: row;
-padding:30px;
-max-width: 150%;
-    }
+.about {
+    background-color: royalblue;
+}
 
-.postergrid{
+.chaussures {
+    background-color: lightpink;
+}
+
+.potion {
+    background-color: mediumblue
+}
+
+.specimen {
+    background-color: darkred
+}
+
+.artiste {
+    background-color: black
+}
+
+.posters {
+    background-color: teal
+}
+
+.typo {
+    background-color: burlywood;
+}
+
+.serigraphie {
+    background-color: purple;
+}
+
+.typo div {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-auto-flow: row;
+    padding: 30px;
+    max-width: 150%;
+}
+
+.postergrid {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     column-gap: 10px;
     row-gap: 10px;
     padding: 30px;
-} 
+}
 
-.pommeratgrid{
+.pommeratgrid {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     grid-template-rows: 320px 320px;
@@ -159,16 +185,22 @@ max-width: 150%;
     padding: 20px;
 }
 
-.serigraphiegrid{
-    display:grid;
+.serigraphiegrid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
     max-width: 140%;
 }
 
-.gridspecimen{
+.gridspecimen {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     column-gap: 10px;
+    row-gap: 10px;
 
+}
+
+.specimen-riso {
+    grid-column-end: span 2;
+    grid-row-end: span 1;
 }
