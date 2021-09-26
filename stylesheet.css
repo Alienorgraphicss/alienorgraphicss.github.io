@@ -134,7 +134,7 @@ a :hover {
 }
 
 .potion {
-    background-color:rgb(139, 226, 255);
+    background-color: rgb(139, 226, 255);
 }
 
 .specimen {
@@ -157,24 +157,44 @@ a :hover {
     background-color: purple;
 }
 
-.pommerat-text{
-    color: black;
+.stardust {
+    background-color: gold;
 }
-.pommerat-titre{
-    color: black;
-}
-.pommerat-a{
+
+.pommerat-text {
     color: black;
 }
 
-.a-nature{
-    color:rgb(46, 102, 99);
+.pommerat-titre {
+    color: black;
 }
-.nature-titre{
-    color:rgb(46, 102, 99);
+
+.pommerat-a {
+    color: black;
 }
-.nature-texte{
-    color:rgb(46, 102, 99);
+
+.a-nature {
+    color: rgb(46, 102, 99);
+}
+
+.nature-titre {
+    color: rgb(46, 102, 99);
+}
+
+.nature-texte {
+    color: rgb(46, 102, 99);
+}
+
+.stardust-a {
+    color: black;
+}
+
+.stardust-titre {
+    color: black;
+}
+
+.stardust-texte {
+    color: black;
 }
 
 .typo div {
@@ -188,6 +208,25 @@ a :hover {
     max-width: 150%;
 }
 
+
+.postergrid {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 360px 360px 360px;
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 30px;
+}
+
+.postergrid {
+    display: grid;
+    grid-template-columns: 360px;
+    grid-template-rows: 360px 360px 360px;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-content: center;
+}
+
 .postergrid {
     display: grid;
     grid-template-columns: 360px 360px 360px;
@@ -199,7 +238,7 @@ a :hover {
 
 .pommeratgrid {
     display: grid;
-    grid-template-columns: 360px 360px 360px;
+    grid-template-columns: 360px;
     grid-template-rows: 360px 360px 360px;
     column-gap: 10px;
     row-gap: 20px;
@@ -207,7 +246,7 @@ a :hover {
     grid-auto-flow: row;
 }
 
-.pommerat-trois{
+.pommerat-trois {
     grid-row-start: 2;
 }
 
