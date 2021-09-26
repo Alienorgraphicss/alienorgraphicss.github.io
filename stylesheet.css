@@ -146,7 +146,7 @@ a :hover {
 }
 
 .posters {
-    background-color: teal;
+    background-color: rgb(227, 243, 194);
 }
 
 .typo {
@@ -167,6 +167,16 @@ a :hover {
     color: black;
 }
 
+.a-nature{
+    color:rgb(46, 102, 99);
+}
+.nature-titre{
+    color:rgb(46, 102, 99);
+}
+.nature-texte{
+    color:rgb(46, 102, 99);
+}
+
 .typo div {
     display: grid;
     grid-template-columns: 500px 500px;
@@ -182,8 +192,8 @@ a :hover {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     grid-template-rows: 360px 360px 360px;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 15px;
+    row-gap: 15px;
     padding: 30px;
 }
 
