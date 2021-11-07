@@ -270,6 +270,7 @@ background-color:oldlace;
     column-gap: 30px;
     row-gap: 30px;
     align-content:space-around;
+    padding: 60px;
 }
 
 .gibbons-grid{
