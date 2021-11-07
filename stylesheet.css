@@ -240,7 +240,7 @@ background-color:oldlace;
     grid-template-rows: 360px 360px 360px;
     column-gap: 10px;
     row-gap: 20px;
-    padding: 20px;
+    padding: 60px;
     grid-auto-flow: row;
 }
 
@@ -261,6 +261,7 @@ background-color:oldlace;
     column-gap: 10px;
     row-gap: 10px;
     grid-auto-flow: row;
+    padding: 60px;
 }
 
 .cimetiere-grid{
@@ -278,4 +279,5 @@ background-color:oldlace;
     column-gap: 15px;
     grid-auto-flow: row;
     max-width:40%;
+    padding: 60px;
 }
