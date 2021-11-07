@@ -162,6 +162,10 @@ a :hover {
     background-color: gold;
 }
 
+.cimetiere{
+    background-color:rgb(246, 255, 212);
+}
+
 .pommerat-text {
     color: black;
 }
@@ -196,6 +200,10 @@ a :hover {
 
 .stardust-texte {
     color: black;
+}
+
+.cimetiere-texte{
+    color:rgb(35, 35, 109)
 }
 
 .typo div {
@@ -251,4 +259,11 @@ a :hover {
     grid-column-end: span 2;
     grid-row-end: span 1;
     max-width: 49%;
+}
+.cimetiere-grid{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-content:space-around;
 }
