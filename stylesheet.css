@@ -51,7 +51,9 @@ selecteur(s) {
         grid-template-columns: 300;
         grid-template-rows: 310px;
         row-gap: 10px;
-        max-width: 20%;
+    }
+    h1{
+        font-size: 15px;
     }
 }
 @media (min-width: 350px) {
@@ -109,7 +111,7 @@ h1 {
     text-align: justify;
     font-family: 'Avara-Bold';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 30px;
     color: white;
 }
 
