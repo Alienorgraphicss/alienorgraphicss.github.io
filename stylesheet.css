@@ -59,8 +59,8 @@ selecteur(s) {
 
     .grid {
         display: grid;
-        grid-template-columns: 250px 250px;
-        grid-template-rows: 250px;
+        grid-template-columns: 320px 320px;
+        grid-template-rows: 320px;
         column-gap: 10px;
         row-gap: 20px;
         align-content: center;
