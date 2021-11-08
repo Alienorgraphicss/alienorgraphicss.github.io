@@ -5,7 +5,7 @@ selecteur(s) {
     propriété : valeur;
     
 }
-*/
+/* FONTES INSTALLÉES */
 
 @font-face {
     font-family: 'Avara-Bold';
@@ -43,9 +43,18 @@ selecteur(s) {
     font-style: normal;
 }
 
+/* GRILLES INDEX */
 @media (min-width: 350px) {
 
     .grid {
+        display: grid;
+        grid-template-columns: 350px;
+        grid-template-rows: 350px;
+        row-gap: 10px;
+        align-content: center;
+    }
+
+    .gridspecimen {
         display: grid;
         grid-template-columns: 350px;
         grid-template-rows: 350px;
@@ -79,6 +88,7 @@ selecteur(s) {
     }
 }
 
+/* PARAMÈTRES GÉNÉRAUX */
 img {
     max-width: 100%;
     height: auto;
@@ -122,7 +132,7 @@ a :hover {
     transition: 0.8s;
 }
 
-
+/* BACKGROUND COLOURS */
 .index {
     background-color: royalblue;
 }
@@ -174,6 +184,8 @@ a :hover {
 .gibbons {
     background-color: oldlace;
 }
+
+/* TEXT COLOUR */
 
 .pommerat-text {
     color: black;
@@ -235,15 +247,19 @@ a :hover {
     max-width: 53em;
 }
 
-.typo div {
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 500px 500px;
-    column-gap: 10px;
-    row-gap: 15px;
-    grid-auto-flow: row;
-    padding: 3px;
-    max-width: 150%;
+/* GRILLES PAGE PAR PAGE */
+
+@media (min-width 1000px){
+    .typo div {
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 500px 500px;
+        column-gap: 10px;
+        row-gap: 15px;
+        grid-auto-flow: row;
+        padding: 3px;
+        max-width: 150%;
+    } 
 }
 
 .postergrid {
@@ -279,6 +295,7 @@ a :hover {
 .gridspecimen {
     display: grid;
     grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px;
     column-gap: 10px;
     row-gap: 10px;
     grid-auto-flow: row;
