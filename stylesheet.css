@@ -43,15 +43,16 @@ selecteur(s) {
     font-style: normal;
 }
 
-@media (min-width:375px) {
+@media (min-width: 350px) {
+
     .grid {
         display: grid;
         grid-template-columns: 350px;
-        grid-template-rows: repeat(6 100px);
-        row-gap: 20px;
-        grid-auto-flow: row;
+        grid-template-rows: 350px;
+        row-gap: 10px;
         align-content: center;
     }
+
 }
 
 @media (min-width: 500px) {
@@ -126,11 +127,11 @@ a :hover {
     background-color: royalblue;
 }
 
-.contact{
+.contact {
     background-color: royalblue;
 }
 
-.about{
+.about {
     background-color: royalblue;
 }
 
@@ -143,7 +144,7 @@ a :hover {
 }
 
 .specimen {
-    background-color:rgb(35, 35, 109);
+    background-color: rgb(35, 35, 109);
 }
 
 .artiste {
@@ -166,12 +167,12 @@ a :hover {
     background-color: gold;
 }
 
-.cimetiere{
-    background-color:rgb(246, 255, 212);
+.cimetiere {
+    background-color: rgb(246, 255, 212);
 }
 
-.gibbons{
-background-color:oldlace;
+.gibbons {
+    background-color: oldlace;
 }
 
 .pommerat-text {
@@ -214,23 +215,23 @@ background-color:oldlace;
     color: black;
 }
 
-.cimetiere-texte{
-    color:rgb(35, 35, 109)
+.cimetiere-texte {
+    color: rgb(35, 35, 109)
 }
 
-.gibbons-texte{
+.gibbons-texte {
     color: rgb(204, 100, 89);
 }
 
-.index-texte{
+.index-texte {
     max-width: 39em;
 }
 
-.chaussures-texte{
+.chaussures-texte {
     max-width: 35em;
 }
 
-.animaux-texte{
+.animaux-texte {
     max-width: 53em;
 }
 
@@ -284,26 +285,26 @@ background-color:oldlace;
     padding: 60px;
 }
 
-.cimetiere-grid{
+.cimetiere-grid {
     display: grid;
     grid-template-columns: 550px 550px;
     column-gap: 30px;
     row-gap: 30px;
-    align-content:space-around;
+    align-content: space-around;
     padding: 60px;
 }
 
-.gibbons-grid{
+.gibbons-grid {
     display: grid;
     grid-template-columns: 400px 400px 400px;
     row-gap: 15px;
     column-gap: 15px;
     grid-auto-flow: row;
-    max-width:40%;
+    max-width: 40%;
     padding: 60px;
 }
 
-.chaussures-grid{
+.chaussures-grid {
     display: grid;
     grid-template-columns: 360px 360px 360px;
     column-gap: 15px;
