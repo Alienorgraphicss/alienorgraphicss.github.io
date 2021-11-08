@@ -44,6 +44,16 @@ selecteur(s) {
 }
 
 /* GRILLES INDEX */
+
+@media (min-width 320px){
+    .grid {
+        display: grid;
+        grid-template-columns: 300;
+        grid-template-rows: 310px;
+        row-gap: 10px;
+        max-width: 20%;
+    }
+}
 @media (min-width: 350px) {
 
     .grid {
@@ -249,17 +259,15 @@ a :hover {
 
 /* GRILLES PAGE PAR PAGE */
 
-@media (min-width 1000px){
-    .typo div {
-        display: grid;
-        grid-template-columns: 500px 500px;
-        grid-template-rows: 500px 500px;
-        column-gap: 10px;
-        row-gap: 15px;
-        grid-auto-flow: row;
-        padding: 3px;
-        max-width: 150%;
-    } 
+.typogrid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    column-gap: 10px;
+    row-gap: 15px;
+    grid-auto-flow: row;
+    padding: 3px;
+    max-width: 150%;
 }
 
 .postergrid {
