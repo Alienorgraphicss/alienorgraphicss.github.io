@@ -303,11 +303,10 @@ a :hover {
 
 .cimetiere-grid {
     display: grid;
-    grid-template-columns: 550px 550px;
-    column-gap: 30px;
-    row-gap: 30px;
-    align-content: space-around;
-    padding: 60px;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 400px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .gibbons-grid {
