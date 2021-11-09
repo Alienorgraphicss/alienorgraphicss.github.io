@@ -234,6 +234,7 @@ a :hover {
 
 .gibbons-texte {
     color: rgb(204, 100, 89);
+    max-width: 40em;
 }
 
 .index-texte {
@@ -246,6 +247,10 @@ a :hover {
 
 .animaux-texte {
     max-width: 53em;
+}
+.about-text{
+    max-width: 50em;
+    line-height: 6mm;
 }
 
 /* GRILLES PAGE PAR PAGE */
