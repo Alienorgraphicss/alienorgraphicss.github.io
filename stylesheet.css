@@ -53,6 +53,7 @@ selecteur(s) {
         grid-template-rows: 350px;
         row-gap: 10px;
         align-content: center;
+        grid-auto-flow: row column;
     }
 
     .gridspecimen {
@@ -61,6 +62,7 @@ selecteur(s) {
         grid-template-rows: 350px;
         row-gap: 10px;
         align-content: center;
+        grid-auto-flow: row column;
     }
 
 }
@@ -87,6 +89,50 @@ selecteur(s) {
         row-gap: 20px;
         align-content: center;
     }
+}
+.numero-un{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.numero-deux{
+    grid-column-start:2;
+    grid-row-start: 1;
+}
+.numero-trois{
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+.numero-quatre{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.numero-cinq{
+    grid-column-start:1;
+    grid-row-start: 2;
+}
+.nurmeo-six{
+    grid-column-start: 2;
+    grid-row-start:2
+}
+.numero-sept{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+.numero-huit{
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+.numero-neuf{
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+.numero-dix{
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+.numero-onze{
+    grid-column-start: 3;
+    grid-row-start: 3;
 }
 
 /* PARAMÈTRES GÉNÉRAUX */
@@ -168,6 +214,9 @@ a :hover {
 
 .typo {
     background-color: burlywood;
+}
+.crochet{
+    background-color: floralwhite;
 }
 
 .serigraphie {
@@ -252,7 +301,9 @@ a :hover {
     max-width: 50em;
     line-height: 6mm;
 }
-
+.crochet-texte{
+    color: black;
+}
 /* GRILLES PAGE PAR PAGE */
 
 .typogrid {
