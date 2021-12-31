@@ -303,6 +303,7 @@ a :hover {
 }
 .crochet-texte{
     color:rgb(105, 60, 1);
+    max-width: 53em;
 }
 /* GRILLES PAGE PAR PAGE */
 
