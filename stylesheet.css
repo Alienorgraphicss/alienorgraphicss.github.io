@@ -88,6 +88,7 @@ selecteur(s) {
         column-gap: 10px;
         row-gap: 20px;
         align-content: center;
+        grid-auto-flow: row column;
     }
 }
 .numero-un{
@@ -107,7 +108,7 @@ selecteur(s) {
     grid-row-start: 1;
 }
 .numero-cinq{
-    grid-column-start:1;
+    grid-column-start:4;
     grid-row-start: 2;
 }
 .nurmeo-six{
@@ -115,11 +116,11 @@ selecteur(s) {
     grid-row-start:2
 }
 .numero-sept{
-    grid-column-start: 4;
-    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
 }
 .numero-huit{
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 3;
 }
 .numero-neuf{
@@ -132,6 +133,10 @@ selecteur(s) {
 }
 .numero-onze{
     grid-column-start: 2;
+    grid-row-start: 2;
+}
+.numero-douze{
+    grid-column-start: 1;
     grid-row-start: 2;
 }
 
@@ -231,10 +236,6 @@ a :hover {
     background-color: rgb(246, 255, 212);
 }
 
-.gibbons {
-    background-color: oldlace;
-}
-
 /* TEXT COLOUR */
 
 .pommerat-text {
@@ -304,6 +305,9 @@ a :hover {
 .crochet-texte{
     color:rgb(105, 60, 1);
     max-width: 53em;
+}
+.ciel-texte{
+    color: black;
 }
 /* GRILLES PAGE PAR PAGE */
 
