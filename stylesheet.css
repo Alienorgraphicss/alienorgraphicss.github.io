@@ -123,7 +123,7 @@ selecteur(s) {
     grid-row-start: 2;
 }
 .numero-neuf{
-    grid-column-start: 2;
+    grid-column-start: 3;
     grid-row-start: 3;
 }
 .numero-dix{
@@ -131,8 +131,8 @@ selecteur(s) {
     grid-row-start: 2;
 }
 .numero-onze{
-    grid-column-start: 3;
-    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
 }
 
 /* PARAMÈTRES GÉNÉRAUX */
