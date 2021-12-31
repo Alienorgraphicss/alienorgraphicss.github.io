@@ -115,12 +115,12 @@ selecteur(s) {
     grid-row-start:2
 }
 .numero-sept{
-    grid-column-start: 1;
-    grid-row-start: 3;
-}
-.numero-huit{
     grid-column-start: 4;
     grid-row-start: 2;
+}
+.numero-huit{
+    grid-column-start: 1;
+    grid-row-start: 3;
 }
 .numero-neuf{
     grid-column-start: 3;
