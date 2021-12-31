@@ -392,3 +392,9 @@ a :hover {
     column-gap: 15px;
     row-gap: 15px;
 }
+
+.ciel-grid{
+    display: grid;
+    grid-template-columns: 500px 482px 482px;
+    column-gap: 15px;
+}
