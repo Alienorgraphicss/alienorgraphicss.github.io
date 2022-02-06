@@ -43,6 +43,29 @@ selecteur(s) {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'vtf_victoriannaitalic';
+    src: url('fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.eot');
+    src: url('fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.woff') format('woff'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.ttf') format('truetype'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin_talic-webfont.svg#vtf_victoriannaitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'vtf_victoriannathin';
+    src: url('fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.eot');
+    src: url('fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.woff') format('woff'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.ttf') format('truetype'),
+         url('fonts/VictoriannaThint_Web/vtf_victorianna_thin-webfont.svg#vtf_victoriannathin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 /* GRILLES INDEX */
 
 @media (min-width: 350px) {
@@ -148,17 +171,15 @@ img {
 }
 
 h1 {
-    text-align: justify;
-    font-family: 'Avara-Bold';
-    font-weight: bold;
-    font-size: 30px;
-    color: white;
+    font-family: 'vtf_victoriannathin';
+    font-size: 35px;
+    color: black;
 }
 
 h2 {
-    font-family: 'Avara-Bold';
+    font-family: 'vtf_victoriannathin';
     font-size: 18px;
-    color: white;
+    color: black;
 }
 
 body {
@@ -167,16 +188,17 @@ body {
 }
 
 p {
-    font-family: 'Avara-Bold';
-    font-size: 16px;
+    font-family: 'vtf_victoriannathin';
+    font-size: 20px;
     text-align: left;
-    color: white;
+    line-height: 23px;
+    color: black;
 }
 
 a {
-    font-family: 'Avara-Bold';
+    font-family: 'vtf_victoriannathin';
     text-decoration: none;
-    color: white
+    color: black;
 }
 
 a :hover {
@@ -186,54 +208,54 @@ a :hover {
 
 /* BACKGROUND COLOURS */
 .index {
-    background-color: royalblue;
+    background-color: white;
 }
 
 .contact {
-    background-color: royalblue;
+    background-color: white;
 }
 
 .about {
-    background-color: royalblue;
+    background-color:white;
 }
 
 .chaussures {
-    background-color: lightpink;
+    background-color: white;
 }
 
 .potion {
-    background-color: rgb(139, 226, 255);
+    background-color: white;
 }
 
 .specimen {
-    background-color: rgb(35, 35, 109);
+    background-color: white;
 }
 
 .artiste {
-    background-color: rgb(255, 255, 255)
+    background-color: white;
 }
 
 .posters {
-    background-color: rgb(227, 243, 194);
+    background-color: white;
 }
 
 .typo {
-    background-color: burlywood;
+    background-color:white;
 }
 .crochet{
-    background-color:blanchedalmond;
+    background-color:white;
 }
 
 .serigraphie {
-    background-color: rgb(98, 77, 146);
+    background-color: white;
 }
 
 .stardust {
-    background-color: gold;
+    background-color: white;
 }
 
 .cimetiere {
-    background-color: rgb(246, 255, 212);
+    background-color: white;
 }
 
 /* TEXT COLOUR */
@@ -241,7 +263,7 @@ a :hover {
 .pommerat-text {
     color: black;
     max-width: 51em;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 .pommerat-titre {
@@ -279,16 +301,17 @@ a :hover {
 }
 
 .cimetiere-texte {
-    color: rgb(35, 35, 109)
+    color: black
 }
 
 .gibbons-texte {
-    color: rgb(204, 100, 89);
+    color: black;
     max-width: 40em;
 }
 
 .index-texte {
-    max-width: 39em;
+    max-width: 51em;
+    line-height: 27px;
 }
 
 .chaussures-texte {
@@ -303,7 +326,7 @@ a :hover {
     line-height: 6mm;
 }
 .crochet-texte{
-    color:rgb(105, 60, 1);
+    color:black;
     max-width: 53em;
 }
 .ciel-texte{
@@ -380,12 +403,7 @@ a :hover {
     padding: 60px;
 }
 
-.chaussures-grid {
-    display: grid;
-    grid-template-columns: 360px 360px 360px;
-    column-gap: 15px;
-    row-gap: 15px;
-}
+
 .crochet-grid{
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -395,6 +413,26 @@ a :hover {
 
 .ciel-grid{
     display: grid;
-    grid-template-columns: 500px 482px 482px;
+    grid-template-columns: 430px 430px 430px;
     column-gap: 15px;
+    row-gap: 15px;
+    max-width: 30%;
+}
+
+.video-etoiles{
+    display: grid;
+    position: relative;
+    top: 15px;
+}
+
+/*FLEXBOX pour agrandir les images en cliquant dessus*/
+
+/*.conteneur-flexbox {
+    max-width: 650px;
+    margin: 100px auto 0 auto;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
