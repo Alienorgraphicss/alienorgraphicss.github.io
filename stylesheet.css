@@ -127,35 +127,27 @@ selecteur(s) {
     grid-row-start: 1;
 }
 .numero-quatre{
-    grid-column-start: 4;
-    grid-row-start: 1;
-}
-.numero-cinq{
-    grid-column-start:4;
-    grid-row-start: 2;
-}
-.nurmeo-six{
-    grid-column-start: 2;
-    grid-row-start:2
-}
-.numero-sept{
     grid-column-start: 1;
     grid-row-start: 3;
 }
-.numero-huit{
-    grid-column-start: 2;
-    grid-row-start: 3;
+.numero-cinq{
+    grid-column-start:3;
+    grid-row-start: 2;
 }
-.numero-neuf{
-    grid-column-start: 3;
-    grid-row-start: 3;
+.nurmeo-six{
+    grid-column-start:1;
+    grid-row-start:3
+}
+.numero-sept{
+    grid-column-start: 4;
+    grid-row-start: 1;
 }
 .numero-dix{
-    grid-column-start: 3;
+    grid-column-start:2;
     grid-row-start: 2;
 }
 .numero-onze{
-    grid-column-start: 2;
+    grid-column-start: 4;
     grid-row-start: 2;
 }
 .numero-douze{
@@ -332,6 +324,10 @@ a :hover {
 .ciel-texte{
     color: black;
 }
+
+.fumeurs-texte{
+    line-height: 25px;;
+}
 /* GRILLES PAGE PAR PAGE */
 
 .typogrid {
@@ -403,7 +399,6 @@ a :hover {
     padding: 60px;
 }
 
-
 .crochet-grid{
     display: grid;
     grid-template-columns: 400px 400px 400px;
@@ -423,6 +418,23 @@ a :hover {
     display: grid;
     position: relative;
     top: 15px;
+}
+
+.fumeurs-grid1{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 15px;
+    row-gap: 15px;
+    max-width: 200%;
+}
+
+.fumeurs-grid2{
+    display: grid;
+    grid-template-columns: 400px;
+    position: relative;
+    left: 835px;
+    bottom: 1475px;
+    row-gap: 15px;
 }
 
 /*FLEXBOX pour agrandir les images en cliquant dessus*/
