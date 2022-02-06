@@ -131,24 +131,28 @@ selecteur(s) {
     grid-row-start: 3;
 }
 .numero-cinq{
-    grid-column-start:3;
+    grid-column-start:4;
     grid-row-start: 2;
 }
-.nurmeo-six{
-    grid-column-start:1;
-    grid-row-start:3
+.numero-six{
+    grid-column-start:2;
+    grid-row-start:3;
 }
 .numero-sept{
     grid-column-start: 4;
     grid-row-start: 1;
 }
+.numero-huit{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
 .numero-dix{
-    grid-column-start:2;
+    grid-column-start:3;
     grid-row-start: 2;
 }
 .numero-onze{
-    grid-column-start: 4;
-    grid-row-start: 2;
+    grid-column-start: 3;
+    grid-row-start: 3;
 }
 .numero-douze{
     grid-column-start: 1;
@@ -435,6 +439,10 @@ a :hover {
     left: 835px;
     bottom: 1475px;
     row-gap: 15px;
+}
+
+.playlist-grid{
+    grid-template-rows: 400px 400px 400px;
 }
 
 /*FLEXBOX pour agrandir les images en cliquant dessus*/
