@@ -429,7 +429,6 @@ a :hover {
     grid-template-columns: 400px 400px;
     column-gap: 15px;
     row-gap: 15px;
-    max-width: 200%;
 }
 
 .fumeurs-grid2{
